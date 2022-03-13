@@ -1,24 +1,24 @@
 # correlacao
 
-Description. 
-The package correlacao is used to:
+Descrição. 
+O pacote correlacao é utilizado para:
 	- Mostrar correlações de variáveis e Alvo.
 	- Os métodos de correlçao utilizados são: Spearman e Pearson.
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar correlacao
 
 ```bash
 pip install correlacao
 ```
 
-## Usage:
-    - O módulo spearman_pearson recebe o DataFrame com as variáveis e uma Serie como Alvo
+## Como utilizar?:
+    - O módulo spearman_pearson recebe um DataFrame com variáveis e uma Série com o Alvo
     - Ex: ''' from correlacao import spearman_pearson as sp
 
               sp.start(DataFrame, Alvo)  '''
-## Author
+## Autor
 Nicodemos Freitas
 
 ## License
